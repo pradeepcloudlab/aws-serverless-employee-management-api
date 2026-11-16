@@ -99,6 +99,7 @@ Paste your actual API Gateway invoke URL here.
 
 ## 4. Project Architecture
 
+```plaintext
 Client / Postman
        |
        v
@@ -112,7 +113,7 @@ Amazon DynamoDB
        |
        v
 Employees Table
-
+```
 CloudWatch is used for logging and monitoring.
 
 ---
